@@ -77,3 +77,35 @@ To merge two branches you have to use
 ```sh
 git merge branch-name
 ```
+
+## Stashing
+This is useful when you want a file not to be tracked
+```sh
+git stash save name-of-stash
+or
+git stash
+```
+to see the list of all the stashes you have to use
+```sh
+git stash list
+```
+To recover the files you can use
+```sh
+git stash apply
+```
+or if you have some stashes you can specify
+```sh
+git stash apply stash@{1}
+```
+To delete all stashes
+```sh
+git stash clear
+```
+To apply and delete a stash
+```sh
+git stash pop
+```
+Delete a specify stash
+```sh
+git stash drop stash@{1}
+```
