@@ -69,3 +69,8 @@ To create a new/move to a branch
 ```sh
 git checkout branch-name
 ```
+To merge two branches you have to use
+To create a new/move to a branch
+```sh
+git merge branch-name
+```
