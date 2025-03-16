@@ -69,8 +69,11 @@ To create a new/move to a branch
 ```sh
 git checkout branch-name
 ```
+To publish in GitHub the new locally created branch you have to use
+```sh
+git push origin branch-name
+```
 To merge two branches you have to use
-To create a new/move to a branch
 ```sh
 git merge branch-name
 ```
