@@ -59,3 +59,13 @@ Allows you to remove staged changes to be unstaged.
 git reset testing.md
 ```
 
+## Branches
+
+To check the branches:
+```sh
+git branch
+```
+To create a new/move to a branch
+```sh
+git checkout branch-name
+```
